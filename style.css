@@ -1,0 +1,41 @@
+ @import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Xanh+Mono:ital@1&display=swap');
+
+ *{
+ margin: 0;
+ padding: 0; 
+}
+ body { 
+ background: #00e5f4;
+ justify-content: center;
+ align-items: center;
+ display: flex;
+ min-height: 100vh;
+ flex-direction: column;
+ letter-spacing: 1px;
+ 
+}
+ .pn{
+ color: yellow;
+ text-shadow: 0 0 10px yellow,
+              0 0 20px yellow;
+ font-family: 'Xanh Mono', monospace;
+ 
+}
+ p { 
+ font-family: 'Pangolin', cursive;
+
+
+}
+ li{
+ font-family: 'Concert One', cursive;
+}
+ a, button{
+ background: #8645f4;
+ padding: 15px 42px;
+ text-decoration: none;
+ color: #fff;
+ border: none;
+ outline: none;
+}
